@@ -1,0 +1,127 @@
+/* RESPONSIVENESS */
+
+
+@media only screen and (max-width: 1920px) {
+   
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 13rem 20rem 10rem 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 43px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        font-size: 15px;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 135px;
+    }
+    
+    .monka-img,
+    .mario-img,
+    .monice-img {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .testimonials-hr {
+        width: 210px;
+    }
+    
+    
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    .moto {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .moto {
+        display: none;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 60px;
+        top: 150px;
+    }
+    
+    
+     .monka-img,
+    .mario-img,
+    .monice-img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .num {
+        margin-left: 0;
+    }
+    
+     .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-google-plus-square,
+    .fa-instagram {
+        font-size: 30px;
+    }
+    
+}
+    
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .testimonial {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .num {
+        margin-left: 0.1px;
+    }
+    
+}
+
+
+
+
+/*THIS IS NOT MENTIONED IN THE COURSE AS I'VE FOUND THE BUG AFTER PUBLISHING. IT CHANGES THE PADDING OF THE BLACK DIV AT THIS CURRENT HEIGHT*/
+@media only screen and (max-height: 865px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 7rem 20rem 2rem 3rem !important;
+    }
+}
+/*THIS IS NOT MENTIONED IN THE COURSE AS I'VE FOUND THE BUG AFTER PUBLISHING. IT CHANGES THE PADDING OF THE BLACK DIV AT THIS CURRENT HEIGHT*/
+

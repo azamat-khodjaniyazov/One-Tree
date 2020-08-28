@@ -1,0 +1,48 @@
+/* SECTION NUMBERS */     
+
+.section-numbers {
+    background-color: white;
+    padding-top: 5rem;
+}
+    
+h2 {
+    text-align: center;
+    
+}
+ 
+.num-content {
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    height: 140px;
+    width: 140px;
+    background: rgba(19, 128, 36, 0.91);
+    border-radius: 100px;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+.num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+
+.num {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 80px;
+}
+
+
+.num-content p {
+    padding-top: 15px;
+}
+
+.num-content:hover {
+    color: #222;
+    transition: 0.3s;
+}
